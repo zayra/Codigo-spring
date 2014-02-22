@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.upiita.spring.jdbc.entidades.Usuario;
 
+//Agregando un simple comentario
+
 @Component("usuarioDAO")
 public class HibernateUsuarioDAO implements UsuarioDAO {
 
